@@ -1,0 +1,394 @@
+gg.toast('Revz Project V Sanhok')
+gg.alert("Ini Trial Script sampai dengan Tanggal 15 Sept, 18. Jam 2 Dini hari nanti")
+function bps()
+gg.setVisible(false)
+gg.searchNumber("12", gg.TYPE_WORD | gg.TYPE_DOUBLE | gg.TYPE_QWORD | gg.TYPE_DWORD | gg.TYPE_BYTE | gg.TYPE_XOR | gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.clearResults()
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(300)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+    gg.toast('Bypass sukses')
+    BP=0
+end
+
+function sbps() 
+    gg.setVisible(false)
+    HH = gg.alert('Wanna Bypass?', '👍', '👎')
+    if HH == 1 then bps() end
+    if HH == 2 then end 
+end 
+
+sbps()
+
+function Main() 
+menu1 = gg.choice({ 
+'BACA DULU SEBELUM PAKE !!!', 
+'AUTO LOBBY WAJIB [ONCE]', 
+'LOBBY MENU [ WH & CLR ]', 
+'✔ 15 DETIK SEBELUM TAKE OFF ✓', 
+'OTHER MENU [ IN GAME ]', 
+'ON/OFF FEATURE [ IN GAME ]',
+'-[ GO EXIT YOUR DRUNK ]-', 
+
+}, 
+
+nil,'       🇲🇨 Revz Project 🇮🇩\n🆓 Cheat PAPJI V 0.8.0 🆓\n') 
+if menu1 == 1 then RM() end 
+if menu1 == 2 then TRN() end 
+if menu1 == 3 then WHC() end 
+if menu1 == 4 then IGM() end 
+if menu1 == 5 then OTR() end
+if menu1 == 6 then ONOFF() end
+if menu1 == 7 then Exit() end
+REEVZ=-1 
+end 
+
+
+function RM()
+gg.alert("Pertama AKTIFKAN AUTO LOBBY WAJIB.. 1 KALI PENGAKTIFAN SAJA\n\nSambil menunggu loadingnya selesai Anda WAJIB SETTING SENSITIFITAS KAMERA [3rd Player TANPA SCOPE] Menjadi 250%")
+
+gg.alert("Setelah loading ini selesai Jangan lupa aktifkan FITUR DI LOBBY [ WH & COLOR ] Jika Mau")
+
+gg.alert("Dan Setelah Anda Start Game. Lalu anda sedang berada di Pulau Terpencil, Dan Ketika Hitungan mundurnya sudah mendekati 15 Detik...\n\nLANGSUNG AKTIFKAN FITUR\n[15 DETIK SEBELUM TAKE OFF]\nUntuk memperbaiki sensitifitas setelah Landing")
+
+end
+
+function TRN()
+gg.clearResults()
+gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("333", gg.TYPE_FLOAT)
+gg.clearResults() gg.searchNumber('0.83333331347;1;0.83333331347::321', gg.TYPE_FLOAT,false,gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('0.83333331347', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('0.000001',gg.TYPE_FLOAT) 
+gg.clearResults()
+gg.toast("Dont forget to HIGH UP Sensitivity Camera Without Scope")
+gg.setRanges(gg.REGION_ANONYMOUS) gg.searchNumber("50;200;0.5;40.0;0.3:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Successfully.. Dont Forget to Activated Lobby Menu")
+end
+
+
+
+
+
+function WHC() 
+MENU12 = gg.multiChoice({  
+'[1] SD 625/626 [WH + COLOR]', 
+'[2] COLOR BLACK [ALL DEVICE]',
+'[3] COLOR WHITE [ALL DEVICE]',
+'[   KEMBALI   ]' 
+
+},
+
+nil,'If you use WALLHACK,Dont use Color BACK/WHITE') 
+if MENU12 == nil then 
+else 
+if MENU12[1] == true then whsd() end 
+if MENU12[2] == true then CLRB() end 
+if MENU12[3] == true then CLRW() end 
+if MENU12[4] == true then Main() end 
+end 
+REEVZ= 1 
+end 
+
+
+function whsd() 
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack Aktif")
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1,080,035,591D;196,617D;2.2509765625F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,080,035,591", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("1,00,035,591", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("KOLOR AKTIF. MAAF BUKAN COLOR IJO 😂")
+end
+
+
+
+function CLRB() 
+gg.clearResults() 
+gg.setRanges(gg.REGION_ANONYMOUS) 
+gg.searchNumber("0.05499718338;1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+gg.getResults(100) 
+gg.editAll("-9999", gg.TYPE_FLOAT) 
+gg.toast("Kang Areng ya? wkwk Item Semua kan Badan lu wkwkw") 
+end 
+
+
+function CLRW() 
+gg.clearResults() 
+gg.setRanges(gg.REGION_ANONYMOUS) 
+gg.searchNumber("0.05499718338;1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+gg.getResults(100) 
+gg.editAll("9999", gg.TYPE_FLOAT) 
+gg.toast("Susunya cocok ya? Badan lo Jadi Putih semua.") 
+end 
+
+
+
+function IGM() 
+gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.setVisible(false)
+  gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT)
+  gg.setVisible(false)
+  gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
+  gg.getResults(200)
+  gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
+gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1;10000D;100000:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(200)
+  gg.editAll("0.001", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("SENSITIF NORMAL LAGI  BOSQUEEE")
+  gg.setVisible(false)
+  gg.clearResults()
+end
+
+
+
+
+
+
+
+function OTR() 
+
+MENU14 = gg.multiChoice({ 
+'[1] No Grass', 
+'[2] Package Antenna LONG & BIG 😅', 
+'[3] Package Antenna LONG & NORMAL 😪',
+'[4] Super Mini SpeedHack',
+'[5] Langit Mendung',
+'[6] AKM Fire Speed', 
+'[7] SCAR Fire Speed', 
+'[8] M416 Fire Speed', 
+' [   KEMBALI   ] ' 
+
+},
+
+nil,'#Note : choose only one for Antenna.\nFIRE SPEED Activate if you already have the Weapon\n') 
+if MENU14 == nil then
+else
+if MENU14[1] == true then ng1() end 
+if MENU14[2] == true then ats() end 
+if MENU14[3] == true then atn() end 
+if MENU14[4] == true then shm() end  
+if MENU14[5] == true then lm() end 
+if MENU14[6] == true then AKM() end 
+if MENU14[7] == true then SCAR() end 
+if MENU14[8] == true then M416() end 
+if MENU14[9] == true then Main() end 
+end
+REEVZ =-1 
+end 
+
+
+function ng1() 
+gg.clearResults() 
+gg.setRanges(gg.REGION_ANONYMOUS) 
+gg.searchNumber("8.0F;1.20000004768F;0.80000001192F;1.5F;0.80000001192F;1.5F::512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber("8.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+gg.getResults(300) 
+gg.editAll("-1", gg.TYPE_FLOAT) 
+gg.toast('RUMPUT GUNDUL LO MAKANIN YA?') 
+end 
+
+function ats() 
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("7.13142681122F;18.38613319397F;0.53447723389F;3.42665576935F:249", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("19993", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS) gg.searchNumber("0.69325947762F;-1.68741035461F:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults()
+gg.editAll("19993", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("7.13142681122F;18.38613319397F;0.53447723389F;3.42665576935F:249", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("19993", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("0.9378669858F;1.0F;0.61365610361F::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+gg.editAll("3500", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("GG Kan Antena nya? wkkwkw Puas dah lo...") 
+end 
+
+function atn() 
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("7.13142681122F;18.38613319397F;0.53447723389F;3.42665576935F:249", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("7.13142681122F;18.38613319397F;0.53447723389F;3.42665576935F:249", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("7.13142681122F;18.38613319397F:241", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("19993", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS) gg.searchNumber("0.69325947762F;-1.68741035461F:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("19993", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1.0F;0.0003454907F;0.7895731926F:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("3500", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("GG Kan Antena nya? wkkwkw Puas dah lo...") 
+end
+
+
+function shm() 
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS) gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("1.029", gg.TYPE_FLOAT)
+gg.toast("Super Mini Speedhack aktif Bosque")
+end
+
+
+function lm()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.clearResults()
+gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("-99", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.toast("Black Sky Aktif")
+end
+
+
+
+function AKM() 
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("30D;10D;0.0~1.0F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll("0.00100000109", gg.TYPE_FLOAT)
+gg.toast("AKM Wani perih....")
+end
+
+function SCAR() 
+gg.searchNumber("30D;10D;0.0~1.0F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.09600000083", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll("0.00010000002", gg.TYPE_FLOAT) 
+gg.toast("SCAR lu boros pelor broo...") 
+end 
+
+function M416() 
+gg.clearResults() 
+gg.setRanges(gg.REGION_ANONYMOUS)
+ gg.searchNumber("30D;10D;0.0~1.0F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+ gg.searchNumber("0.08600000292", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("0.00100000002", gg.TYPE_FLOAT) 
+gg.toast("M416 lo DERESSS cooy wkwkkw...") 
+end 
+
+
+
+function ONOFF() 
+
+MENU15 = gg.multiChoice({ 
+'[1] INV Rock+Tree+House', 
+'[2] SHOW Rock+Tree+House', 
+' [   KEMBALI   ] ' 
+
+},
+
+nil,'Gunakan Sesuai kebutuhan\n') 
+if MENU15 == nil then 
+else 
+if MENU15[1] == true then OFFPKT() end 
+if MENU15[2] == true then ONPKT() end 
+if MENU15[3] == true then Main() end 
+end
+REEVZ = 1
+end 
+
+function OFFPKT()
+gg.clearResults() 
+gg.setRanges (gg.REGION_C_BSS) 
+gg.searchNumber('2048D;4D;1F;1F;1D:17', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+
+t = gg.getResults(100) 
+for i=1,#t do 
+t[i].value = '0.07999999821' 
+t[i].freeze = true 
+t[i].freezeType = gg.FREEZE_NORMAL 
+end 
+gg.addListItems(t)	 
+gg.clearResults() 
+gg.toast(' 😂😂😅😅Pu-un, Batu, Rumah ngilang. ati2 Nabrak ') 
+end 
+
+function ONPKT() 
+gg.clearResults() 
+gg.setRanges (gg.REGION_C_BSS) 
+t = gg.getListItems(100) 
+for i=1,#t do 
+if t[i].value == '0.07999999821' then 
+t[i].freeze = false 
+end 
+end 
+gg.addListItems(t) 
+gg.searchNumber('2048D;4D;0,07999999821F;0,07999999821F;1D:17', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber('0.07999999821', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+gg.getResults(300) 
+gg.editAll('1', gg.TYPE_FLOAT) 
+gg.clearResults() 
+gg.toast('CIE MUNCUL LAGI 😅') 
+end 
+
+
+
+function Exit() 
+gg.alert("Dah tobat dah lo ngecheat nya, kasian anak orang") 
+print('Created By \nRiyan & Erwin') os.exit() 
+end 
+
+cs = "Revz Project V Sanhok" 
+while true do 
+if gg.isVisible(true) then 
+REEVZ = 1 
+gg.setVisible(false) 
+end 
+gg.clearResults() 
+if REEVZ == 1 then 
+Main() 
+end 
+end 
+
